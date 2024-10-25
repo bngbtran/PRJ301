@@ -1,0 +1,26 @@
+SMAP
+DetailPage_jsp.java
+JSP
+*S JSP
+*F
++ 0 DetailPage.jsp
+DetailPage.jsp
++ 1 Header.jsp
+Header.jsp
++ 2 Footer.jsp
+Footer.jsp
+*L
+5,15:51
+5#1,17:66
+19#0,2:82
+21,2:85
+22,4:87
+26:91,3
+27,2:94
+29:96,3
+30,2:99
+32:101,3
+33,4:104
+5#2,17:108
+36#0,4:124
+*E

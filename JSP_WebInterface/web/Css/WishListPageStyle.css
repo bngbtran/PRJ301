@@ -1,0 +1,66 @@
+* 
+    {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.menu a 
+    {
+        margin-right: 20px;
+        color: rgb(0, 184, 0);
+        text-decoration: none;
+    }
+
+.menu div 
+    {
+        margin-right: 20px;
+    }
+
+.text   
+    {
+        margin-left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 50px;
+    }
+
+.table td tr th
+    {
+        justify-content: center;
+    }
+
+th, td 
+    {
+        text-align: center;
+        padding: 8px;
+    }
+
+tr:nth-child(even) 
+    {
+        background-color: #C8E2B1;
+    }
+
+.AddToCart
+    {   
+        margin-left: 1320px;
+        width: 100px;
+        height: 50px;   
+    }
+
+#contact 
+    {
+        color: green;
+        text-decoration: none;
+    }
+
+.addnew
+    {
+        margin-left: 1320px;
+        width: 100px;
+        height: 50px;                                 
+    }
+
+.addnew a
+    {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }     

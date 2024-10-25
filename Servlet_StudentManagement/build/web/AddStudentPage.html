@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Add Student Page</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
+        
+        <style>
+            body 
+                {
+                    font-family: Time New Romans;
+                    background-color: #B8E1FF;
+                }
+
+            h2 
+                {
+                    color: white;
+                    font-size: xx-large;
+                    text-align: center;
+                }
+
+            form    
+                {
+                    width: 300px;
+                    margin: 0 auto;
+                }
+
+            label   
+                {
+                    display: block;
+                    margin-bottom: 10px;
+                    color: white;
+                }
+
+            input[type = "text"],
+            input[type = "password"],
+            input[type = "email"],
+            input[type = "tel"],
+            textarea,
+            select 
+                {
+                    width: 100%;
+                    padding: 5px;
+                    border-radius: 3px;
+                    border: 1px solid #ccc;
+                    margin-bottom: 10px;
+                }
+
+            input[type = "submit"] 
+                {
+                    background-color: #B8E1FF;
+                    color: black;
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    margin-left: 75px;
+                    font-size: large;
+                    font-weight: bold;
+                }
+
+            .container
+                {
+                    position: absolute;
+                    top: 60%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 500px;
+                    padding: 10px;
+                    background-color: rgba(0, 0, 0, 0.24);
+                    border-radius: 20px;  
+                }
+        </style>
+        
+    </head>
+
+    <body>
+        <div class = "container">
+            <form action = "AddStudent" method = "post">
+
+                <h2>STUDENT RESIGTRATION</h2>
+
+                <label for = "name">Full name: </label>
+                <input type = "text" id = "name" name = "name" required><br><br>
+
+                <label for = "id">ID: </label>
+                <input type = "text" id = "id" name = "id" required><br><br>
+
+                <label for = "password">Password: </label>
+                <input type = "password" id = "password" name = "password" required><br><br>
+
+                <label for = "email">Email: </label>
+                <input type = "email" id = "email" name = "email" required><br><br>
+
+                <label for = "phone">Phone number: </label>
+                <input type = "tel" id = "phone" name = "phone" required><br><br>
+
+                <label for = "address">Address: </label>
+                <input type = "text" id = "address" name = "address" required><br><br>
+
+                <label for = "gender">Gender: </label>
+                <select id = "gender" name = "gender" required>
+                  <option value = "">Choose your gender</option>
+                  <option value = "Male">Male</option>
+                  <option value = "Female">Female</option>
+                  <option value = "Other">Other</option>
+                </select><br><br>
+
+                <input type="submit" value="RESIGTRATION">
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+kiwi, 60, In stock
+banana, 35, In stock
+orange, 200, In stock
+melon, 12, In stock
+mango, 88, In stock

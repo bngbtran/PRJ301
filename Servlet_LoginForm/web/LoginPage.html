@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        
+        <style>
+            .container 
+                {
+                    display: flex;
+                    width: 100%;
+                    height: 100vh;
+                    background-color: #B8E1FF;
+                }
+
+            .container img 
+                {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    z-index: -1;
+                }   
+
+            .form-container 
+                {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 300px;
+                    padding: 20px;
+                    background-color: rgba(0, 0, 0, 0.24);
+                    border-radius: 20px;  
+                }
+
+            h2 
+                {
+                    text-align: center;
+                    color: white;
+                    font-size: xx-large;
+                }
+
+            .input-group 
+                {
+                    margin-bottom: 15px;
+                }
+
+            .input-group label 
+                {
+                    display: block;
+                    margin-bottom: 5px;
+                    color: white;
+                }
+
+            .input-group input[type = "text"],
+            .input-group input[type = "password"] 
+                {
+                    width: 100%;
+                    padding: 5px;
+                    border-radius: 20px;
+                }
+
+            .input-group button 
+                {
+                    border-radius: 20px;
+                    justify-content: center;
+                    margin-left: 77px;
+                    width: 50%;
+                    padding: 8px;
+                    background-color: #B8E1FF;
+                    color: black;
+                    cursor: pointer;
+                    font-size: large;
+                    font-weight: bold;
+                }
+        </style>
+        
+    </head>
+    
+    <body> 
+       <div class = "container">
+            <div class = "form-container">
+                <h2>LOGIN FORM</h2>
+                <form method = "post" action = "check-login">
+                    
+                <div class = "input-group">
+                    <label for = "username">Username: </label>
+                    <input type = "text" id = "username" name = "username" required>
+                </div>
+                    
+                <div class = "input-group">
+                    <label for = "password">Password: </label>
+                    <input type = "password" id = "password" name = "password" required>
+                </div>
+                    
+                <div class = "input-group">
+                    <button type = "submit">LOGIN</button>
+                </div>
+                    
+                </form>
+            </div>
+    </body>
+</html>

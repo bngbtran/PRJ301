@@ -1,0 +1,228 @@
+*
+    { 
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+html
+    { 
+        font-family: arial;
+        font-size: 12px; 
+    }
+    
+header, section, footer, nav, ul 
+    { 
+        float: left;
+        width: 100%;
+    }
+    
+header, nav, footer
+    { 
+        height: 100px;
+        background-color: #e1f5eb;
+    }
+    
+section 
+    { 
+        height: auto;
+    }
+    
+header li
+    {
+        width: 10%; 
+        list-style-type: none;
+        text-align: center;
+        float: left;
+    }
+
+.header_text 
+    {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+a   
+    { 
+        color: #006666;
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+input 
+    {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        width: 300px;
+        margin: 10px;
+    }
+
+.gender 
+    {
+        width: 50px;
+    }
+
+p   
+    {
+        font-size: 16px;
+    }
+
+.detail_text 
+    {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+.detail_text h2 
+    {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+.detail_text h3 
+    {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+
+.orginput 
+    {
+        background: linear-gradient(45deg, orangered, orchid);
+    }
+
+.btn 
+    {
+        width: 200px;
+        align-items: center;
+    }
+
+.btnsubmit 
+    {
+        width: 300px;
+        align-items: center;
+    }   
+
+header li:last-child 
+    { 
+        width: 30%;
+        float: right;
+    }
+    
+#logo 
+    { 
+        width: 100px; 
+        height: 100px; 
+    }
+    
+.form table
+    {
+        width: 50%;
+    }
+    
+.product 
+    {
+        width: 20%; 
+        height: auto; 
+        float:left; 
+        margin: 5%;
+    }
+    
+.order 
+    { 
+        border: 1px solid #cccccc; 
+        width: 100%; 
+        margin: 1%;
+    }
+    
+.order tr:first-child
+    { 
+        width: 100%; 
+        background-color: #e1eee7;
+        color: #006666;
+    }
+    
+.order td
+    { 
+        color: black; 
+        width: 15%;
+    }
+    
+.plantimg 
+    { 
+        width: 100px; 
+        height: 100px;
+    }
+    
+.shopping 
+    {  
+        width: 70%;
+    }
+
+.table 
+    { 
+        border: 1px solid #cccccc; 
+        width: 95%; 
+        margin: 1%; 
+        margin-left: 40px;          
+        margin-top: 20px;
+        margin-bottom: 20px;   
+        border-collapse: collapse;
+    }
+    
+.table tr:first-child
+    {
+        width: 100%;
+        color: blue;
+    }
+    
+.table td
+    { 
+        color: black; 
+        width: 15%;
+    }
+    
+.table th 
+    {
+        padding: 10px; 
+        font-size: 14px; 
+        padding-top: 20px; 
+        padding-bottom: 20px;
+    }
+
+#chi_tiet 
+    {
+        font-size: 14px; 
+        text-decoration: underline; 
+        color: blue;
+    }
+
+.table th, td 
+    {
+        padding: 20px;
+        border: 1px solid #ddd;
+    }
+
+.table_data 
+    {
+        font-weight: normal;
+    }
+
+.return_button 
+    {
+        margin-left: 720px;
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+        background-color: #B8E1FF;
+    }
+
+.return_button a 
+    {
+        color: black;
+    }
